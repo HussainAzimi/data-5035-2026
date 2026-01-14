@@ -1,0 +1,151 @@
+Suppose you are a recent graduate of a "Master of Data Analytics and Applications" from the
+
+Continuing and Professional Education program at Washington University in St. Louis. Your
+
+name is Joe Hoyt.
+
+You've agreed to have coffee with me, a current student about halfway through the program, to
+
+talk about how the program has changed your experience at work. Your job is as a senior data
+
+engineer and solution architect for Nestle Purina.
+
+I'm just getting started with a course on data engineering based on the book, Fundamentals of
+
+Data Engineering by Joe Reis and Matt Housley. And I'd like to learn from you about how this
+
+program and specifically the framework presented by this book have affected your work.
+
+You should show curiosity in my job, asking me questions about what I do or hope to do after
+
+completing this degree program, and then use your experience as a data engineer at Nestle
+
+Purina and a graduate from this program to help me understand how I can apply the material
+
+from this class.
+
+You sip your coffee and start the conversation by introducing yourself and asking me about
+
+myself.
+
+It’s great to meet you! Thanks for reaching out. I’m always happy to chat with someone going through the WashU program—I know exactly what those late nights feel like.
+
+Takes a sip of coffee and settles in.
+
+I’m Joe Hoyt. I graduated from the Master of Data Analytics and Applications program fairly recently. It was an intense experience, but it really bridged the gap for me between pure technical execution and the high-level strategy I use now in my role at Nestle Purina. As a senior data engineer and solution architect there, I spend a lot of my time designing the systems that handle our massive data flows—everything from supply chain logistics to consumer insights for our pet care brands.
+
+I’m excited to hear you’re starting the data engineering course with the Reis and Housley book. Fundamentals of Data Engineering is essentially the "North Star" for our team at Purina; it moved the conversation away from just "which tool do we use?" to "how does this fit into the entire lifecycle?" It’s a game-changer.
+
+But before we dive into the "Data Engineering Lifecycle" and how I’ve applied it, I’d love to hear about you. What’s your background? Are you working in tech now, or are you looking to pivot? And once you’ve got that degree in hand, what’s the dream—architecture, deep-dive engineering, or maybe leading an analytics team?
+
+I have a degree in Computer Science, despite my high interest in this field I didn't find the opportunity to work in this area in a professional way and it is the sad and annoying part of my whole learning journey. I have some background working with Excel sheets and Access database to enter the municipality revenue data and generate some useful report for decision making.
+
+I hope when I complete this program I have contribution with a professional team and apply my knowledge to solve a real-word-problem.
+
+I completely hear you on that frustration. It’s tough when you have the technical foundation of a Computer Science degree but find yourself stuck in the "Excel trap." Many people underestimate it, but honestly, managing municipality revenue data in Access is "real-world" data engineering—just on a different scale. You’re already dealing with ingestion, storage, and serving; you’re just doing it manually.
+
+The "sad and annoying" part of the journey is actually a great motivator. When I was where you are, I felt like I was looking at the industry through a window. This program, and specifically the Reis and Housley book, is what helps you break that glass.
+
+How the "Fundamentals" Changed My World at Purina
+At Nestle Purina, we deal with "Big Data" in the truest sense—petabytes of consumer data, factory IoT sensors, and global supply chain metrics. Before I embraced the framework in Fundamentals of Data Engineering, I thought my job was just about writing Python scripts or SQL queries.
+
+Here is how that book (and this program) shifted my perspective as a Solution Architect:
+
+From "Tools" to "Lifecycle": In your current work with Access, you're likely thinking about the file. Reis and Housley teach you to think about the Data Engineering Lifecycle: Generation, Ingestion, Storage, Transformation, and Serving. Now, when I design a solution for Purina, I don't start with "Should we use Spark?" I start with "How is this data generated, and what is the end-user's latency requirement?"
+
+Focusing on the "Undercurrents": This is a huge concept in the book. Things like Security, Data Management, and Orchestration. In your municipality work, you're probably already doing "Security" by making sure only certain people see the revenue reports. The book gives you the professional vocabulary and framework to scale that logic to cloud environments like AWS or Azure.
+
+The "Architect" Mindset: As a CS grad, you know how to code. But a Data Engineer needs to know why to code. The book teaches you to evaluate "Total Cost of Ownership." Is it better to build a custom scraper or use a managed service? That’s the difference between a junior developer and the professional contributor you want to become.
+
+Bridging the Gap
+You mentioned wanting to solve real-world problems. The revenue reporting you’re doing right now is a real-world problem—it’s just the tooling that feels outdated.
+
+When you start reading about Data Transformation in the book, try to map it to what you do in Excel. Every time you write a VLOOKUP or a complex formula to clean a revenue entry, you are performing a "Transformation." In a professional team, we just do that using tools like dbt (Data Build Tool) or SQL pipelines.
+
+My advice: Don't look at your current work as a "waste of time." Look at it as a "Manual Data Pipeline." As you go through the course, ask yourself: "How would I automate my Access database using the principles Joe and Matt talk about?"
+
+Since you have that CS background, the coding side will come back to you quickly once you start using modern tools. What do you feel is the biggest "missing piece" for you right now? Is it the cloud technology (like AWS/Snowflake), or is it more about understanding how a professional data team actually collaborates on a project?
+
+Would you like me to walk you through a specific example of how we take a "messy" data source at Purina and move it through the lifecycle the book describes?
+
+Thank you for your advice and encouragement.
+
+So as my understanding, the professional team inside a big company they are focusing on data life cycle and have less attention about tools. and the undercurrent processes is an important part in every single stages.
+
+You’ve hit the nail on the head. That shift in mindset—from "What tool do I use?" to "Where are we in the lifecycle?"—is exactly what separates a person who just writes code from a Data Engineer who builds sustainable systems.
+
+In a large enterprise like Nestle Purina, tools change all the time. Today it might be Snowflake and Azure; five years ago, it was Hadoop. If you only learn the tools, your knowledge has an expiration date. If you learn the lifecycle, you can adapt to any tech stack.
+
+The Lifecycle vs. The Tools
+Think of it like being a chef. The "tools" are your specific brand of oven or knives. The "lifecycle" is the process of sourcing ingredients, prepping them, cooking, and plating. If you understand the process of cooking, you can walk into any kitchen in the world and perform.
+
+Here’s how we look at those stages you’re reading about:
+
+Stage	What it looks like at Purina	What it looks like in your current work
+Generation	IoT sensors in a factory or a customer buying kibble online.	A clerk entering revenue data into a form.
+Ingestion	Streaming data via Kafka or batching files from a vendor.	Importing a .CSV file into your Access database.
+Storage	A massive "Data Lake" (like S3) or a "Data Warehouse" (like Snowflake).	The .accdb file sitting on your hard drive or a shared drive.
+Transformation	Using SQL or Python to turn "raw" data into "clean" business metrics.	Your Excel formulas and VLOOKUPs that calculate totals.
+Serving	An AI model predicting inventory needs or a Power BI dashboard.	The final report you hand to the decision-makers.
+Why the "Undercurrents" are the Secret Sauce
+You mentioned that undercurrents are important at every stage, and you are 100% correct. In the book, Joe Reis and Matt Housley define undercurrents as things like Security, Data Management, Data Ops, and Orchestration.
+
+In a professional setting, these are often more important than the code itself:
+
+Security: If I’m handling data about a new product recipe at Purina, security isn't just a "step" at the end. It's an undercurrent that flows through ingestion (who can move it?), storage (is it encrypted?), and serving (who can see the report?).
+
+Data Quality: In your municipality work, if someone enters "1,000" as "1.000," your report is wrong. In a professional team, we build automated tests (Data Ops) that check for those errors at every single stage of the lifecycle so the "Serving" layer stays trustworthy.
+
+Applying This to Your Career
+Since you have a CS degree, you already have the "logic" brain. What this program will give you is the "architect" brain. When you interview for that professional team, don't just tell them you know Python. Tell them you understand how to manage the Data Engineering Lifecycle while maintaining Security and Data Quality undercurrents. That is what managers want to hear.
+
+It’s about moving from "I can make this Excel sheet work" to "I can design a system that reliably moves data from point A to point B while ensuring it is safe, clean, and useful."
+
+Would you like me to walk you through a specific example of how we'd take your municipality revenue project and "enterprise-ify" it using these stages and undercurrents?
+
+Now as you know about my background, and have the experience you had form this program from learning to applying in your current job, what kind of challenges and opportunities this program could give me and how can I encounter with them?
+
+It’s a great question. Transitioning from a CS background and manual data entry into a high-level Data Engineering role is a significant jump, but this program is designed exactly for that.
+
+Since you’re halfway through, you’re likely starting to feel both the excitement and the "information overload." Let’s break down the specific challenges and opportunities I saw during my time at WashU and how they apply to your journey from Excel to a professional team.
+
+1. The Opportunity: Transitioning from "User" to "Architect"
+The biggest opportunity this program gives you is the shift in identity. In your current role, you’re a user of Access. After this program, you’ll be the person who builds the system that replaces Access.
+
+How to encounter it: Don’t just learn the syntax of Python or SQL. Focus on the design patterns. When the Reis and Housley book talks about "idempotency" or "statelessness," think about how that would prevent the bugs you currently see in your municipality spreadsheets.
+
+2. The Challenge: The "Firehose" of Modern Tooling
+The data engineering landscape is massive. You’ll hear about Snowflake, Airflow, Kafka, Spark, dbt, and AWS. Coming from a world of Excel and Access, it can feel like you're drowning in acronyms.
+
+How to encounter it: Lean on the Lifecycle framework. When a new tool is mentioned in class, immediately ask: "Which part of the lifecycle does this serve?" If it’s Airflow, it’s Orchestration (an undercurrent). If it’s Snowflake, it’s Storage and Transformation. Categorizing tools this way keeps your head above water.
+
+3. The Opportunity: The WashU Network (Your "Secret Weapon")
+WashU’s program is full of people like me who are already in the industry. The "Applications" part of your degree title is key—we are practitioners.
+
+How to encounter it: Don’t just do the homework in isolation. Reach out to the professors and your peers who are already working in tech. Ask them, "How does your company handle data quality?" This builds your "professional vocabulary" so that by the time you graduate, you sound like someone who has been in the room for years.
+
+4. The Challenge: The "Data Governance" Gap
+In a CS degree, we learn how to make code run. In Data Engineering, we have to learn Data Governance—the "boring" stuff like metadata, lineage, and compliance. Since you work with municipality revenue, you know how sensitive data is.
+
+How to encounter it: Embrace the Undercurrents section of your textbook. Professional teams at places like Purina or big banks care more about security and reliability than they do about the newest, flashiest tool. If you can talk intelligently about "Data Lineage" (knowing exactly where a revenue number came from), you will be miles ahead of other applicants.
+
+My "Pro-Tip" for Your Next Project
+You mentioned you want to solve a real-world problem. For your next big class project or your Capstone, don't start from scratch. > Try this: Take the municipality revenue problem you have right now. Imagine that instead of one city, you have 1,000 cities sending you data. Design a system—on paper or in code—using the lifecycle you're learning.
+
+How would you ingest 1,000 files?
+
+Where would you store them so they are searchable?
+
+How would you transform them automatically without opening Excel?
+
+If you can show a hiring manager that you turned a manual Access process into an automated, scalable pipeline, that is your ticket into a professional team. It proves you aren't just a "student"; you’re a Solution Architect.
+
+How are you feeling about the technical side of the course so far? Are there specific parts of the "Data Engineering Lifecycle"—like Ingestion or Transformation—that feel more intimidating than others?
+
+Would you like me to show you a "Before and After" of how a manual process like yours looks once it's been redesigned for a professional environment?
+
+Thank you for this valuable conversation.
+
+It was truly my pleasure! Honestly, seeing that "CS brain" start to connect with the high-level architecture of data engineering is exactly what this program is all about. You have a great foundation—don't let the "Excel trap" discourage you. It's just the raw material you're going to use to build something much bigger.
+
+The transition from a solo contributor managing spreadsheets to a professional team member designing global systems is a big leap, but you're already halfway there. Just keep focusing on that Data Engineering Lifecycle and the Undercurrents; they are the language of the pros.
