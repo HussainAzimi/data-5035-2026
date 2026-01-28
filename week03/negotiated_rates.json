@@ -1,0 +1,214 @@
+{
+  "reporting_entity_name": "United HealthCare Services, Inc.",
+  "reporting_entity_type": "Third-Party Administrator",
+  "last_updated_on": "2022-10-01",
+  "version": "1.0.0",
+  "out_of_network": [
+    {
+      "name": "E-STIM 1/> AREAS OTH THAN WND CARE PART TX PLAN",
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2022",
+      "billing_code": "G0283",
+      "description": "Electrical stimulation (unattended), to one or more areas for indication(s) other than wound care, as part of a therapy plan of care",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1184090458.0"
+          },
+          "service_code": "11",
+          "billing_class": "professional",
+          "payments": {
+            "allowed_amount": 8.78,
+            "providers": [
+              {
+                "billed_charge": 10.0,
+                "npi": [
+                  1184090458.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "MANUAL THERAPY TQS 1/> REGIONS EACH 15 MINUTES",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2022",
+      "billing_code": "97140",
+      "description": "Manual therapy techniques (eg, mobilization/ manipulation, manual lymphatic drainage, manual traction), 1 or more regions, each 15 minutes",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1184090458.0"
+          },
+          "service_code": "11",
+          "billing_class": "professional",
+          "payments": {
+            "allowed_amount": 20.03,
+            "providers": [
+              {
+                "billed_charge": 97.5,
+                "npi": [
+                  1184090458.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1285296509.0"
+          },
+          "service_code": "12",
+          "billing_class": "professional",
+          "payments": {
+            "allowed_amount": 24.64,
+            "providers": [
+              {
+                "billed_charge": 95.0,
+                "npi": [
+                  1285296509.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "SBSQ HOSPITAL CARE/DAY 25 MINUTES",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2022",
+      "billing_code": "99232",
+      "description": "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is responding inadequately to therapy or has developed a minor complication. Typically, 25 minutes are spent at the bedside and on the patient's hospital floor or unit.",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1306821053.0"
+          },
+          "service_code": "61",
+          "billing_class": "professional",
+          "payments": {
+            "allowed_amount": 74.54,
+            "providers": [
+              {
+                "billed_charge": 112.0,
+                "npi": [
+                  1306821053.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "SBSQ HOSPITAL CARE/DAY 35 MINUTES",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2022",
+      "billing_code": "99233",
+      "description": "Subsequent hospital care, per day, for the evaluation and management of a patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant complication or a significant new problem. Typically, 35 minutes are spent at the bedside and on the patient's hospital floor or unit.",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1124356779.0"
+          },
+          "service_code": "21",
+          "billing_class": "professional",
+          "payments": {
+            "allowed_amount": 100.35,
+            "providers": [
+              {
+                "billed_charge": 200.0,
+                "npi": [
+                  1124356779.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "THER PX 1/> AREAS EACH 15 MIN NEUROMUSC REEDUCA",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2022",
+      "billing_code": "97112",
+      "description": "Therapeutic procedure, 1 or more areas, each 15 minutes; neuromuscular reeducation of movement, balance, coordination, kinesthetic sense, posture, and/or proprioception for sitting and/or standing activities",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1184090458.0"
+          },
+          "service_code": "11",
+          "billing_class": "professional",
+          "payments": {
+            "allowed_amount": 32.9,
+            "providers": [
+              {
+                "billed_charge": 97.5,
+                "npi": [
+                  1184090458.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "THERAPEUTIC PX 1/> AREAS EACH 15 MIN EXERCISES",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2022",
+      "billing_code": "97110",
+      "description": "Therapeutic procedure, 1 or more areas, each 15 minutes; therapeutic exercises to develop strength and endurance, range of motion and flexibility",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1184090458.0"
+          },
+          "service_code": "11",
+          "billing_class": "professional",
+          "payments": {
+            "allowed_amount": 21.51,
+            "providers": [
+              {
+                "billed_charge": 97.5,
+                "npi": [
+                  1184090458.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1285296509.0"
+          },
+          "service_code": "12",
+          "billing_class": "professional",
+          "payments": {
+            "allowed_amount": 26.62,
+            "providers": [
+              {
+                "billed_charge": 95.0,
+                "npi": [
+                  1285296509.0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
