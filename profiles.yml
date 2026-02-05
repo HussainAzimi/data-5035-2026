@@ -1,0 +1,9 @@
+data-5035-2026:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: SNOWFLAKE_LEARNING_ROLE
+      warehouse: '"Snowflake Learning Warehouse"'
+      database: DATA5035
+      schema: SPRING26
